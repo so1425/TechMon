@@ -186,6 +186,9 @@
                                 <state key="normal" title="ファイア" backgroundImage="gold_button.png">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="fireAction" destination="p6R-gn-81R" eventType="touchUpInside" id="3X9-KX-0Zr"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mdf-lc-Xvm">
                                 <rect key="frame" x="269" y="558" width="90" height="70"/>
@@ -194,6 +197,9 @@
                                 <state key="normal" title="ためる" backgroundImage="gold_button.png">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="tameruAction" destination="p6R-gn-81R" eventType="touchUpInside" id="MxT-6v-Kdf"/>
+                                </connections>
                             </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ejg-Uu-yFw">
                                 <rect key="frame" x="187" y="83" width="164" height="100"/>
@@ -250,6 +256,7 @@
                         <outlet property="playerImageView" destination="fhw-fV-DWO" id="Lw2-EO-djy"/>
                         <outlet property="playerMPLabel" destination="yV9-Sm-oB8" id="ddP-6w-dcH"/>
                         <outlet property="playerNameLabel" destination="jCQ-et-koP" id="Grd-nw-lUh"/>
+                        <outlet property="playerTPLable" destination="zEk-97-qMk" id="MDy-mW-5xf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="raR-c5-sw7" userLabel="First Responder" sceneMemberID="firstResponder"/>
